@@ -1,3 +1,16 @@
+devel
+--------------------------------------------------------------------------------
+
+bug fixes
+  - robust.seas(): fallbacks now work when called from inside a function (the
+    documented parLapply example), when a fallback argument was also supplied
+    by the user (it now overrides instead of duplicating), when 'x' is a
+    non-symbolic expression, and the start-year adjustment actually reaches
+    'seas' instead of being written to a dead environment. 'estimate.maxiter'
+    is only raised when the error suggests it (now also matching the current
+    X-13 'maximum iterations reached' message), but then stays active for all
+    subsequent retries.
+
 0.1  2016-08-01
 --------------------------------------------------------------------------------
 

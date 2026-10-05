@@ -8,8 +8,11 @@ Maintainer: Christoph Sax <christoph.sax@gmail.com>
 Description: experimental stuff that may go into the seasonal package at some point.
 Depends:
     seasonal
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
 License: GPL-3
 URL: http://www.seasonal.website
-BugReports: https://github.com/christophsax/seasonallab
+BugReports: https://github.com/zeyuz35/seasonallab/issues
 LazyData: true
 RoxygenNote: 5.0.1

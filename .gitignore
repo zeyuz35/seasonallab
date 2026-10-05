@@ -1,0 +1,4 @@
+LLM/
+.omp/
+**.DS_Store
+**.code-workspace
